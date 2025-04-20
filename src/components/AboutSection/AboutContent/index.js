@@ -39,7 +39,7 @@ const AboutContent = () => {
     <Container>
      <Title>About Me</Title>
 <Text>
-I am a self-driven and passionate developer with a strong foundation in electronics and a deep interest in software development. As a final year ECE (Electronics and Communication Engineering) student at Vignan's Institute of Information Technology (VIIT), I’ve explored beyond my core domain and gained hands-on experience in full-stack web development through various real-world projects and internships. I enjoy solving problems, learning new technologies, and building impactful web applications. My journey showcases a unique combination of ECE fundamentals and modern software skills, driven by continuous learning and innovation.
+I am a self-driven and passionate developer with a strong foundation in electronics and a deep interest in software development. As a third year ECE (Electronics and Communication Engineering) student at Vignan's Institute of Information Technology (VIIT), I’ve explored beyond my core domain and gained hands-on experience in full-stack web development through various real-world projects and internships. I enjoy solving problems, learning new technologies, and building impactful web applications. My journey showcases a unique combination of ECE fundamentals and modern software skills, driven by continuous learning and innovation.
 </Text>
 <MobileText>
 I’m a third year ECE student at VIIT, passionate about software development. Though my background is in electronics, I’ve built strong full-stack skills through practical projects and internships. I enjoy solving problems and creating web apps, constantly learning and pushing my boundaries in tech.

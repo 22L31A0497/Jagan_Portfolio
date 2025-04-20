@@ -187,7 +187,7 @@ const Navbar = () => {
           <NavLink href='#contact'>Contact</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton href="https://github.com/LOKESHDUMPALA">GitHub Profile</GithubButton>
+          <GithubButton href="https://github.com/22L31A0497">GitHub Profile</GithubButton>
         </ButtonContainer>
 
         {open && (

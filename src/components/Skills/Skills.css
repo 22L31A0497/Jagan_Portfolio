@@ -1,0 +1,66 @@
+.skills-container {
+    margin: 4rem 4rem; /* Adds space on both left and right */
+    position: relative;
+}
+
+.skills-container h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.skills-container h5 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.skills-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.skills {
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 2rem; /* Adds space between skills and skills-info */
+}
+
+.skills-info {
+    flex: 1;
+}
+@media screen and (max-width: 768px) {
+    .skills-content {
+        flex-direction: column; /* Stack skills and skills-info vertically */
+        gap: 2rem; /* Adjust the gap between skills and info */
+    }
+
+
+    .skills-info {
+        width: 100%; /* Allow skill info card to take full width */
+    }
+}
+
+/* Further adjustments for very small screens */
+@media screen and (max-width: 480px) {
+    .skills-container {
+        margin: 2rem; /* Reduce margin for very small screens */
+    }
+
+    .skills-container h1 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+
+    .skills-container h5 {
+        font-size: 0.9rem; /* Adjust subheading size */
+    }
+
+
+
+    .skills-info {
+        padding: 1rem; /* Adjust padding for small screens */
+    }
+}

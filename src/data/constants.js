@@ -1,7 +1,7 @@
 import Img from "../images/image.png";
 import LetsGrow from "../images/LETSGROW.jpeg"
-import ITJOBXS from "../images/ITJOBXS.jpeg";
-import INTERNPIXEL from "../images/INTERNPIXEL.jpeg";
+import ITJOBXS from "../images/ITJOBXS.jpg";
+import INTERNPIXEL from "../images/INTERNPIXEL.jpg";
 import Victoryscl from "../images/Victoryscl.png";
 import SriChaitanya from "../images/Srichaitanya.jpg";
 import VignanLogo from "../images/vignanlogo.jpg";
@@ -92,11 +92,11 @@ export const Bio = {
           image:
             "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
         },
-        {
-          name: "Shadcn-UI",
-          image:
-            "https://ui.shadcn.com/apple-touch-icon.png",
-        },
+        // {
+        //   name: "Shadcn-UI",
+        //   image:
+        //     "https://ui.shadcn.com/apple-touch-icon.png",
+        // },
       ],
     },
     {

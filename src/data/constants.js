@@ -21,7 +21,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges.",
     github: "https://github.com/22L31A0497",
     resume:
-      "https://drive.google.com/file/d/18z_hqdSV91CkpN8ogaZ-GiF7V7y2yrQ7/view?usp=sharing",
+      "https://drive.google.com/file/d/1B_hAYG98QE7jd84WfqrVDHFUtiZMgfBb/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/jaganmohanraokuna-fullstack/",
     twitter: "https://x.com/JaganMo88789011",
     insta: "https://www.instagram.com/jaganmohan_rao_kuna/",
@@ -288,7 +288,7 @@ export const experiences = [
         "TailwindCSS"
       ],
       github: "https://github.com/22L31A0497/LMS_Full_Stack_By_Jagan",
-      webapp: "https://github.com/22L31A0497/LMS_Full_Stack_By_Jagan"
+      webapp: "https://lms-full-stack-by-jagan.vercel.app/"
     },
     {
       id: 1,

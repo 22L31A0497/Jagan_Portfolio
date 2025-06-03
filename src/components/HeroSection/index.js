@@ -109,27 +109,35 @@ const Title = styled.div`
     line-height: 48px;
     margin-bottom: 8px;
   }
-`;
-const TextLoop = styled.div`
+`;const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
   display: flex;
+  align-items: center;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+
   @media (max-width: 960px) {
+    justify-content: center;
     text-align: center;
   }
+
   @media (max-width: 640px) {
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
   }
 `;
+
 const Span = styled.span`
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
+  white-space: nowrap;
 `;
+
 const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;

@@ -33,20 +33,19 @@ color: ${({ theme }) => theme.text_primary};
     display: block;
   }
 `;
-
 const AboutContent = () => {
   return (
     <Container>
-     <Title>About Me</Title>
-<Text>
-I am a self-driven and passionate developer with a strong foundation in electronics and a deep interest in software development. As a third year ECE (Electronics and Communication Engineering) student at Vignan's Institute of Information Technology (VIIT), I’ve explored beyond my core domain and gained hands-on experience in full-stack web development through various real-world projects and internships. I enjoy solving problems, learning new technologies, and building impactful web applications. My journey showcases a unique combination of ECE fundamentals and modern software skills, driven by continuous learning and innovation.
-</Text>
-<MobileText>
-I’m a third year ECE student at VIIT, passionate about software development. Though my background is in electronics, I’ve built strong full-stack skills through practical projects and internships. I enjoy solving problems and creating web apps, constantly learning and pushing my boundaries in tech.
-</MobileText>
-
+      <Title>About Me</Title>
+      <Text>
+        I am a self-driven and passionate developer with a strong foundation in electronics and a deep interest in software development. As a final year ECE (Electronics and Communication Engineering) student at Vignan's Institute of Information Technology (VIIT), I’ve gone beyond my core domain to build real-world expertise in full-stack web development through impactful projects and internships. I enjoy solving complex problems, learning modern technologies, and creating meaningful web applications. My journey reflects a unique blend of ECE fundamentals and strong software engineering skills, fueled by continuous learning and innovation.
+      </Text>
+      <MobileText>
+        I’m a final year ECE student at VIIT, passionate about software development. Though my background is in electronics, I’ve developed strong full-stack skills through real-world projects and internships. I love building web apps, solving problems, and constantly growing in the tech space.
+      </MobileText>
     </Container>
   );
 };
+
 
 export default AboutContent;

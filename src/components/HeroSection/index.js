@@ -174,23 +174,25 @@ const ResumeButton = styled.a`
 `;
 const Image = styled.img`
   position: relative;
+  display: block;
   width: 100%;
-  height: 100%;
-  max-width: 400px;
-  max-height: 400px;
-  border-radius: 50%;
+  max-width: 300px;            // Adjust width as needed
+  height: auto;                // Auto height maintains natural aspect ratio
+  object-fit: contain;         // Ensures the full image is visible
   border: 2px solid ${({ theme }) => theme.primary};
+  border-radius: 37px;         // Optional: gives soft rounded corners
+  background-color: #fff;      // Optional: fills space if needed
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); // Optional: adds depth
 
   @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 280px;
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 240px;
   }
 `;
+
 const SocialMediaIcons = styled.div`
   display: flex;
   margin-bottom: 1rem;

@@ -20,7 +20,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges.",
     github: "https://github.com/22L31A0497",
-    resume: "https://drive.google.com/file/d/1TL7Aq_7G3hbjMH-hlabUlGCsGsCcnypV/view?usp=drivesdk",
+    resume: "https://drive.google.com/file/d/1a5o4mPn6oeU1nBCSsp0nnTYcBvFxbQWa/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/jaganmohanraokuna-fullstack/",
     twitter: "https://x.com/JaganMo88789011",
     insta: "https://www.instagram.com/jaganmohan_rao_kuna/",
@@ -238,7 +238,7 @@ export const experiences = [
       img: VignanLogo,
       school: "Vignan's Institute of Information Technology, Visakhapatnam",
       date: "June 2022 - Apr 2026",
-      grade: "8.6 CGPA",
+      grade: "8.7 CGPA",
       degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
     },
     {
@@ -261,15 +261,18 @@ export const experiences = [
   
   export const projects = [
     {
-      id: 0,
-      title: "LMS Portal",
-      description: `
-  - Developed a full-stack Learning Management System inspired by Udemy, enabling users to enroll in courses and instructors to manage them.
-  - Integrated Clerk Authentication for secure login/sign-up via Email, Google, and OTP with complete role-based access (Admin, Instructor, Student).
-  - Implemented Stripe Payments for course enrollment and tracked individual educator earnings.
-  - Built dynamic course management features: upload/edit videos, manage lectures, track real-time enrollment.
-  - Enabled secure video streaming, category-based filtering, and responsive UI using TailwindCSS.
-      `,
+      
+  id: 0,
+  title: "LMS Portal",
+  description: `
+  - Designed and built a complete frontend for a Learning Management System inspired by Udemy using React.js, Redux Toolkit, and Tailwind CSS.
+  - Integrated Clerk Authentication UI for secure login/sign-up (Email, Google, OTP) with protected routes and role-based access (Admin, Instructor, Student).
+  - Created 15+ responsive pages including dashboards, course catalog, payment UI, and lecture management interfaces using React Router.
+  - Developed reusable components for video uploads, lecture control, course updates, and enrollment tracking for a smooth user experience.
+  - Ensured mobile responsiveness and performance across devices, focusing on intuitive navigation and clean UI structure.
+  `
+
+,
       // demo: {
       //   admin: { id: "admin@gmail.com", pwd: "admin" },
       //   instructor: { id: "instructor@gmail.com", pwd: "instructor" },

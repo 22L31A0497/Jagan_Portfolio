@@ -202,8 +202,9 @@ const Projects = () => {
         </ProjectWrapper>
       ))}
       <ShowMoreButton onClick={() => setShowMore(!showMore)}>
-        {showMore ? "Show Less" : "Show More"}
-      </ShowMoreButton>
+        {showMore ? "View Less Projects ⬆️" : "View More Projects 📂 ⇩"}
+
+         </ShowMoreButton>
     </Container>
   );
 };

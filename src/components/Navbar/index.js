@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link as LinkR } from 'react-router-dom';
 import styled, { useTheme } from 'styled-components';
@@ -40,14 +39,16 @@ const NavLogo = styled(LinkR)`
   align-items: center;
   color: ${({ theme }) => theme.text_primary};
   @media screen and (max-width: 640px) {  
-  padding: 0 0px;}
+    padding: 0 0px;
+  }
 `;
 
 const MobileIcon = styled.div`
   display: none;
-
   @media screen and (max-width: 1050px) {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between toggle and bars */
     position: absolute;
     top: 0;
     right: 0;
@@ -86,6 +87,7 @@ const ButtonContainer = styled.div`
   align-items: center;
   justify-content: end;
   width: 80%;
+   gap: 20px;
   height: 100%;
   padding: 0 6px;
   @media screen and (max-width: 1050px) {
@@ -162,7 +164,24 @@ const CloseButton = styled.div`
   margin-bottom: 16px;
 `;
 
-const Navbar = () => {
+const ThemeToggleButton = styled.button`
+  margin-right: 12px;
+  background-color: transparent;
+  color: ${({ theme }) => theme.text_primary};
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
+const Navbar = ({ darkMode, toggleTheme }) => {
   const [open, setOpen] = useState(false);
   const theme = useTheme();
 
@@ -174,9 +193,8 @@ const Navbar = () => {
             <DiCssdeck size='3rem' /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
-        <MobileIcon onClick={() => setOpen(!open)}>
-          <FaBars />
-        </MobileIcon>
+
+        {/* Desktop nav items */}
         <NavItems>
           <NavLink href="#home">Home</NavLink>
           <NavLink href='#about'>About</NavLink>
@@ -186,9 +204,24 @@ const Navbar = () => {
           <NavLink href='#coding-profiles'>CodingProfiles</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
         </NavItems>
+
         <ButtonContainer>
           <GithubButton href="https://github.com/22L31A0497">GitHub Profile</GithubButton>
+          {/* Toggle on desktop */}
+          <ThemeToggleButton onClick={toggleTheme}>
+            {darkMode ? "🔆" : "🌙"}
+          </ThemeToggleButton>
         </ButtonContainer>
+
+        {/* Mobile top-right icons: toggle + bars */}
+        <MobileIcon>
+          <ThemeToggleButton onClick={toggleTheme}>
+             {darkMode ? "🔆" : "🌙"}
+          </ThemeToggleButton>
+          <div onClick={() => setOpen(!open)}>
+            {open ? <FaTimes /> : <FaBars />}
+          </div>
+        </MobileIcon>
 
         {open && (
           <MobileMenu open={open}>

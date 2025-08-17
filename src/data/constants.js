@@ -9,7 +9,11 @@ import Techconnect from "../images/Tech-Connect.jpg";
 import ECommerce from "../images/Ecommerceee.jpg";
 import TeamInfo from "../images/Team-Info.png";
 import Quiz from "../images/Quizz.png";
-
+import cranes_varsity_logo from "../images/cranes_varsity_logo.jpg"
+import teckybot from "../images/teckybot_logo.jpg"
+import TitanicImage from "../images/titanic.jpg"
+import BlogImage from "../images/Blog.png"
+import Django from "../images/django.png"
 
 export const Bio = {
     name: "Jaganmohan Rao Kuna",
@@ -38,16 +42,17 @@ export const Bio = {
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
           {
-          name: "Next Js",
+          name: "Django + REST",
           image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-          
+            "https://www.svgrepo.com/show/353657/django-icon.svg"},
+              
         {
           name: "Redux",
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
         },
+          
+       
         {
           name: "Redux-ToolKit",
           image:
@@ -106,23 +111,28 @@ export const Bio = {
         {
           name: "C",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-        },
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png", },
         {
           name: "C++",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
         },
         
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
+       
         {
           name: "Python",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        },
+        
+         {
+          name: "Java",
+          image:
+           "https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png?f=webp", },
+         {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
       ],
     },
@@ -196,7 +206,27 @@ export const Bio = {
   
 export const experiences = [
   {
-    id: 0,
+  id: 0,
+  img: cranes_varsity_logo, // Replace with your image import or path
+  role: "Data Science & AI/ML Intern",
+  company: "Cranes Varsity Pvt. Ltd.",
+  date: "May 2025 - June 2025",
+  desc: "Built a Titanic survival prediction model using Logistic Regression and Random Forest algorithms. Gained hands-on experience with key machine learning concepts such as EDA, feature engineering, model tuning, and evaluation. Utilized tools including Python, Scikit-learn, Pandas, Seaborn, and Keras.",
+  skills: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Seaborn",
+    "Keras",
+    "Machine Learning",
+    "Data Analysis"
+  ],
+  doc: "",
+}
+,
+  {
+    id: 1,
     img: ITJOBXS,
     role: "Full Stack Developer Intern & Team Lead",
     company: "UptoSkills",
@@ -214,7 +244,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 1,
+    id: 2,
     img: INTERNPIXEL,
     role: "Frontend Developer Intern",
     company: "OctaNet Services Pvt. Ltd.",
@@ -229,6 +259,25 @@ export const experiences = [
     ],
     doc: "",
   },
+  {
+  id: 3,
+  img: teckybot, // Replace with your image import or path
+  role: "Embedded Systems Intern",
+  company: "Teckybot",
+  date: "May 2024 - June 2024",
+  desc: "Gained hands-on experience with microprocessors, microcontrollers, and the ESP8266 Wi-Fi module in real-world embedded systems projects. Worked on integrating embedded systems with cloud platforms, strengthening skills in IoT and remote data communication. Developed and tested embedded applications, improving proficiency in hardware-software interfacing and system-level debugging.",
+  skills: [
+    "Embedded Systems Design",
+    "Microprocessors",
+    "Microcontrollers",
+    "ESP8266",
+    "IoT",
+    "Hardware-Software Interfacing",
+    "System Debugging",
+    "Cloud Integration"
+  ],
+  doc: "", // Replace with actual certificate path if needed
+},
 ];
 
   
@@ -319,8 +368,82 @@ export const experiences = [
       github: "https://github.com/22L31A0497/Dev_tinder_backend",
       webapp: "https://github.com/22L31A0497/Dev_tinder_backend"
     },
+    
+{
+  id: 2,
+  title: "Secure Authentication System – Full-Stack (React + Django REST)",
+  description: `
+  - Built a complete full-stack application with React frontend and Django REST Framework backend.
+  - Implemented user authentication with signup, login, and logout functionality.
+  - Secured the app using JWT authentication (Access & Refresh tokens) with protected routes.
+  - Managed tokens efficiently using Axios interceptors for seamless API calls.
+  - Applied full validation and security best practices for login, signup, and logout workflows.
+  - Gained hands-on experience in connecting React with Django REST APIs securely.
+  `,
+  image: Django, // replace with your image import or path
+  tags: [
+    "React.js",
+    "Django REST Framework",
+    "JWT",
+    "Axios",
+    "Full-Stack",
+    "Authentication",
+    "Security"
+  ],
+  github: "https://github.com/22L31A0497/FullStack_Secure_Auth", // replace if uploaded
+  webapp: "https://github.com/22L31A0497/FullStack_Secure_Auth" // can leave empty if not deployed
+},
+{
+  id: 3,
+  title: "Blog Website Using Django",
+  description: `
+  - Created a fully functional Blog Website using Django.
+  - Users can create blogs with images and videos, and delete them whenever needed.
+  - Styled using HTML & CSS with Django static files.
+  - Deployed and running live on Render.
+  - Gained hands-on experience with Django templating, static file handling, and deployment.
+  `,
+  image: BlogImage, // replace with your imported image or path
+  tags: [
+    "Django",
+    "Python",
+    "HTML",
+    "CSS",
+    "Deployment",
+    "Render"
+  ],
+  github: "https://github.com/22L31A0497/Blog_website_Using_Django",
+  webapp: "https://lnkd.in/gD8DQGMR"
+},
+   
     {
-      id: 2,
+  id: 4,
+  title: "Titanic Survival Analysis – End-to-End ML Project",
+  description: `
+  - Executed full ML pipeline on raw Titanic data: missing value imputation, outlier handling, encoding, scaling, and feature engineering.
+  - Performed EDA with 5+ visualizations using Seaborn and Matplotlib to analyze survival impact by age, gender, fare, and class.
+  - Trained models: Logistic Regression, Decision Tree, Random Forest, achieving ~82% accuracy with cross-validation and tuning.
+  - Derived business insight: "Women and children in higher classes had highest survival" — recommend prioritization in emergency protocols.
+  `,
+  image: TitanicImage, // replace with your imported image or path
+  tags: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Seaborn",
+    "Matplotlib",
+    "Scikit-learn",
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest"
+  ],
+  github: "https://github.com/22L31A0497/Titanic_Survival_Analysis",
+  webapp: "https://github.com/22L31A0497/Titanic_Survival_Analysis"
+  
+},
+
+ {
+      id: 5,
       title: "MediMate",
       description: `
   - Built during a hackathon, MediMate is a health tech solution offering AI-powered symptom analysis and telemedicine support.
@@ -352,6 +475,7 @@ export const experiences = [
       github: "https://github.com/22L31A0497/MediMate_by_HealthGuardians",
       webapp: "https://medi-mate-by-health-guardians-vgau.vercel.app/"
     }
+
   ];
   
 export const codingProfiles = [
@@ -366,23 +490,36 @@ export const codingProfiles = [
     image: "https://www.codechef.com/sites/all/themes/abessive/logo.svg",
     link: "https://www.codechef.com/users/jaganmohan2004",
   },
+    {
+    name: "Codeforces",
+    image: "https://store-images.s-microsoft.com/image/apps.48094.14504742535903781.aedbca21-113a-48f4-b001-4204e73b22fc.503f883f-8339-4dc5-8609-81713a59281f",
+    link: "https://codeforces.com/profile/Kuna_Jaganmohan_rao",
+  },
   {
     name: "Coding-Ninjas",
-    image: "data:image/jpeg;base64,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",
+    image: "https://www.financialexpress.com/wp-content/uploads/2023/05/APIS-and-NxtWave-image-37-3.jpg",
     link: "https://www.naukri.com/code360/profile/Kunajaganmohan",
   },
+  
   {
     name: "GeeksforGeeks",
     image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png",
     link: "https://www.geeksforgeeks.org/user/jaganmohan_rao_kuna/",
   },
-  
+  {
+    name: "AtCoder",
+    image: "https://img.atcoder.jp/assets/atcoder.png",
+    link: "https://atcoder.jp/users/jaganmohanrao",
+  },
 ];
-
 
 
 export const achievements = [
-  "Achieved Top 20th Spot in SUSHACKS hackthon out of 120 Teams." ,
-  
-  "Solved 200+ problems and Leetcode with highest rating 1548.",
+  "2⭐ Rated Coder on CodeChef with peak rating of 1400+.",
+  "Earned the Knight Badge on LeetCode for consistent problem solving.",
+  "1900+ Contest Rating on LeetCode, ranked among Top 26,000 globally.",
+  "Solved 700+ DSA problems across LeetCode, GFG, CodeChef & more.",
+  "Top 20 in SusHacks Hackathon 2025 (National-level innovative tech solutions).",
+  "Earned multiple certifications from platforms like NPTEL, Coursera, Udemy,Postman and Forage."
 ];
+

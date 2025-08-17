@@ -47,6 +47,9 @@ const ProfileImage = styled.img`
   height: 80px;
   margin-bottom: 15px;
   border-radius: 50%;
+  object-fit: contain;  /* ✅ keeps full image inside circle */
+  background-color: #fff; /* optional: adds white background behind transparent logos */
+  padding: 5px; 
 `;
 
 const ProfileName = styled.div`

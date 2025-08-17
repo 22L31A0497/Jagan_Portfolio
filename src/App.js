@@ -10,7 +10,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-
 import AboutSection from "./components/AboutSection/index.js";
 import CodingProfiles from "./components/CodingProfile/index.js";
 import styled from "styled-components";
@@ -36,25 +35,6 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
-const ThemeToggleButton = styled.button`
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 16px;
-  background-color: ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.text_primary};
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
-  z-index: 1000;
-  &:hover {
-    background-color: ${({ theme }) => theme.secondary};
-  }
-`;
-
 function App() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -66,7 +46,8 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
-        <Navbar />
+        {/* Pass toggle + darkMode to Navbar */}
+        <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
         <Body>
           <HeroSection />
           <Wrapper>
@@ -81,11 +62,6 @@ function App() {
           </Wrapper>
           <Footer />
         </Body>
-
-        
-        <ThemeToggleButton onClick={toggleTheme}>
-          {darkMode ? "🌙" : "☀️"}
-        </ThemeToggleButton>
       </Router>
     </ThemeProvider>
   );

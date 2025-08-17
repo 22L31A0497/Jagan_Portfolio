@@ -1,14 +1,13 @@
 import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
-import { Snackbar, CircularProgress, Alert } from '@mui/material';
+import { CircularProgress, Alert } from '@mui/material';
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  z-index: 1;
   align-items: center;
   @media (max-width: 960px) {
     padding: 0px;
@@ -25,9 +24,6 @@ const Wrapper = styled.div`
   max-width: 1350px;
   padding: 0px 0px 80px 0px;
   gap: 12px;
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
 `;
 
 const Title = styled.div`
@@ -121,6 +117,10 @@ const LoadingContainer = styled.div`
   margin-top: 10px;
 `;
 
+const AlertContainer = styled.div`
+  margin-top: 12px;
+`;
+
 const Contact = () => {
   const [open, setOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -129,12 +129,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
     emailjs.sendForm('service_5zik5gm', 'template_ebpmagf', form.current, 'vLJ2AOwNIL8hYDr7t')
       .then((result) => {
         setOpen(true);
         setIsSubmitting(false);
         form.current.reset();
+        setTimeout(() => setOpen(false), 4000); // auto hide alert after 4s
       }, (error) => {
         console.log(error.text);
         setIsSubmitting(false);
@@ -152,7 +152,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          
+
           {isSubmitting ? (
             <LoadingContainer>
               <CircularProgress />
@@ -160,29 +160,27 @@ const Contact = () => {
           ) : (
             <ContactButton type="submit" value="Send" />
           )}
+         
+          {/* Alert below button */}
+          {open && (
+            <AlertContainer>
+              <Alert
+                severity="success"
+                sx={{
+                  backgroundColor: 'hsla(271, 100%, 50%, 1)',
+                  color: 'white',
+                  '& .MuiAlert-icon': {
+                    color: 'white'
+                  }
+                }}
+              >
+                Email sent successfully!
+              </Alert>
+            </AlertContainer>
+          )}
+           
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
-          sx={{ marginBottom: '20px', marginLeft: '20px' }}
-        >
-          <Alert 
-            onClose={() => setOpen(false)} 
-            severity="success" 
-            sx={{ 
-              width: '100%',
-              backgroundColor: 'hsla(271, 100%, 50%, 1)',
-              color: 'white',
-              '& .MuiAlert-icon': {
-                color: 'white'
-              }
-            }}
-          >
-            Email sent successfully!
-          </Alert>
-        </Snackbar>
+      
       </Wrapper>
     </Container>
   );

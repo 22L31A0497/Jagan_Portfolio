@@ -108,7 +108,7 @@ function Footer() {
           &copy; 2025 All rights reserved.
           <br/>
 
-        Built by Jagan with 🩷
+        Made with 🩷 by Jagan 
         </Copyright>
 
       </FooterWrapper>

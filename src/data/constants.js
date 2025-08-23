@@ -24,7 +24,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges.",
     github: "https://github.com/22L31A0497",
-    resume: "https://drive.google.com/file/d/1a5o4mPn6oeU1nBCSsp0nnTYcBvFxbQWa/view?usp=drivesdk",
+    resume: "https://drive.google.com/file/d/1NN1Bvvg7i6Py0i1cZgxtJ5neU5GZDPV4/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/jaganmohanraokuna-fullstack/",
     twitter: "https://x.com/JaganMo88789011",
     insta: "https://www.instagram.com/jaganmohan_rao_kuna/",
@@ -36,6 +36,11 @@ export const Bio = {
       title: "Technologies",
       icon:Img,
       skills: [
+        {
+          name: "Next.js",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFawWWjg9D3Z1-fJ51G0XYLIGNQv0zeCv8gA&s",
+        },
         {
           name: "React Js",
           image:
@@ -287,7 +292,7 @@ export const experiences = [
       img: VignanLogo,
       school: "Vignan's Institute of Information Technology, Visakhapatnam",
       date: "June 2022 - Apr 2026",
-      grade: "8.7 CGPA",
+      grade: "8.9 CGPA",
       degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
     },
     {
@@ -303,7 +308,7 @@ export const experiences = [
       img: Victoryscl,
       school: "Victory High School, Kotabommali",
       date: "Apr 2020",
-      grade: "10/10",
+      grade: "97.6%",
       degree: "School, state",
     },
   ];

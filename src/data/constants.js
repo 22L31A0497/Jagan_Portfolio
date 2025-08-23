@@ -390,8 +390,8 @@ export const experiences = [
     "Authentication",
     "Security"
   ],
-  github: "https://github.com/22L31A0497/FullStack_Secure_Auth", // replace if uploaded
-  webapp: "https://github.com/22L31A0497/FullStack_Secure_Auth" // can leave empty if not deployed
+  github: "https://github.com/22L31A0497/Stock-Prediction-Portal", // replace if uploaded
+  webapp: "https://github.com/22L31A0497/Stock-Prediction-Portal" // can leave empty if not deployed
 },
 {
   id: 3,

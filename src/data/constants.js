@@ -14,6 +14,7 @@ import teckybot from "../images/teckybot_logo.jpg"
 import TitanicImage from "../images/titanic.jpg"
 import BlogImage from "../images/Blog.png"
 import Django from "../images/django.png"
+import ChatApp from "../images/ChatApp.png"
 
 export const Bio = {
     name: "Jaganmohan Rao Kuna",
@@ -36,33 +37,28 @@ export const Bio = {
       title: "Technologies",
       icon:Img,
       skills: [
-        {
+         {
+          name: "Django + REST",
+          image:
+            "https://www.svgrepo.com/show/353657/django-icon.svg"},
+             {
           name: "Next.js",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFawWWjg9D3Z1-fJ51G0XYLIGNQv0zeCv8gA&s",
         },
+         { name: "PyTorch", image: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" },
+      { name: "OpenCV", image: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
+      { name: "ONNX Runtime", image: "https://pbs.twimg.com/media/GAS80yUbkAAa05h.png" },
+      { name: "TensorFlow (Basic)", image: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" },
+
+       
         {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
-          {
-          name: "Django + REST",
-          image:
-            "https://www.svgrepo.com/show/353657/django-icon.svg"},
-              
-        {
-          name: "Redux",
-          image:
-            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        },
-          
+         
        
-        {
-          name: "Redux-ToolKit",
-          image:
-            "https://cdn.iconscout.com/icon/free/png-256/free-redux-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-3029653.png",
-        },
         {
           name: "Node Js",
           image: "https://nodejs.org/static/images/logo.svg",
@@ -77,6 +73,21 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
+               
+        {
+          name: "Redux",
+          image:
+            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        },
+          
+       
+        {
+          name: "Redux-ToolKit",
+          image:
+            "https://cdn.iconscout.com/icon/free/png-256/free-redux-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-3029653.png",
+        },
+        { name: "YOLOv8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGDZGxCWxa0Wbn0zwKD-GxGY8xby_7j7NgTQ&s" },
+     
         {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -91,15 +102,16 @@ export const Bio = {
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhoXisDruJMDAq3Ltd-wuaMW2lGxck9wAKw&s",
         },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
+        
         {
           name: "Bootstrap",
           image:
             "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         // {
         //   name: "Shadcn-UI",
@@ -142,7 +154,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Tools",
+      title: "Tools & Deployment",
       icon:Img,
       skills: [
         {
@@ -169,7 +181,12 @@ export const Bio = {
           name: "MongoDB Compass",
           image:
             "https://cdn.icon-icons.com/icons2/3053/PNG/512/mongodb_compass_macos_bigsur_icon_189933.png"
-        }
+        },
+        { name: "Docker", image: "https://www.svgrepo.com/show/331370/docker.svg" },
+      { name: "AWS", image: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" },
+      { name: "Render", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNTOvzVWHlfxw8ynZukw4qxDF6pv1eNkUAPQ&s" },
+      { name: "Hugging Face Spaces", image: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+      
       ],
     },
     {
@@ -313,12 +330,39 @@ export const experiences = [
     },
   ];
   
-  export const projects = [
-    {
-      
-  id: 0,
-  title: "LMS Portal",
-  description: `
+
+export const projects = [
+  {
+    id: 0,
+    title: "ChatPulse (AI-powered real-time chat with video calls & media sharing)",
+    description: `
+  - ChatPulse is a next-gen real-time messenger built with the MERN stack, combining seamless communication with intelligent AI assistance.  
+  - Enables instant messaging, media sharing, and HD video calls through a clean, responsive interface.  
+  - Integrated AI assistant for multilingual chat, smart reply suggestions, and creative text generation (letters, polls, etc.).  
+  - Real-time updates powered by Socket.io, secure JWT-based authentication, and efficient Cloudinary media storage.  
+  - Features include profile editing, dynamic themes, and smart utilities for enhanced conversations.  
+  - Fully deployed end-to-end with scalable backend, WebSocket server, and AI integration for real-world usability.  
+  `,
+    image: ChatApp,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+      "TailwindCSS",
+      "JWT",
+      "AI",
+      "Video Call",
+      "Cloudinary"
+    ],
+    github: "https://github.com/22L31A0497/fullstack-chat-app-master/tree/master",
+    webapp: "https://fullstack-live-chat-app.onrender.com/"
+  },
+  {
+    id: 1,
+    title: "LMS Portal",
+    description: `
   - Designed and built a complete frontend for a Learning Management System inspired by Udemy using React.js, Redux Toolkit, and Tailwind CSS.
   - Integrated Clerk Authentication UI for secure login/sign-up (Email, Google, OTP) with protected routes and role-based access (Admin, Instructor, Student).
   - Created 15+ responsive pages including dashboards, course catalog, payment UI, and lecture management interfaces using React Router.
@@ -327,130 +371,78 @@ export const experiences = [
   `
 
 ,
-      // demo: {
-      //   admin: { id: "admin@gmail.com", pwd: "admin" },
-      //   instructor: { id: "instructor@gmail.com", pwd: "instructor" },
-      //   student: { id: "student@gmail.com", pwd: "student" },
-      // },
-      image: Techconnect,
-      tags: [
-        "React.js",
-        "Redux Toolkit",
-        "Stripe",
-        "Node.js",
-        "Express.js",
-        "Clerk Auth",
-        "MongoDB",
-        "TailwindCSS"
-      ],
-      github: "https://github.com/22L31A0497/LMS_Full_Stack_By_Jagan",
-      webapp: "https://lms-full-stack-by-jagan.vercel.app/"
-    },
-    {
-      id: 1,
-      title: "DevTinder Backend",
-      description: `
+    // demo: {
+    //   admin: { id: "admin@gmail.com", pwd: "admin" },
+    //   instructor: { id: "instructor@gmail.com", pwd: "instructor" },
+    //   student: { id: "student@gmail.com", pwd: "student" },
+    // },
+    image: Techconnect,
+    tags: [
+      "React.js",
+      "Redux Toolkit",
+      "Stripe",
+      "Node.js",
+      "Express.js",
+      "Clerk Auth",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    github: "https://github.com/22L31A0497/LMS_Full_Stack_By_Jagan",
+    webapp: "https://lms-full-stack-by-jagan.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "DevTinder Backend",
+    description: `
   - Created a secure and scalable backend for a professional networking platform.
   - Implemented JWT authentication with bcrypt hashing and cookie-based sessions.
   - Developed RESTful APIs for login/signup, profile management, connection requests, and social feeds.
   - Ensured clean architecture using Express routers, schema validation, role-based routing, and modular middleware.
   - Used MongoDB queries optimized for performance and Postman for API testing.
       `,
-      // demo: {
-      //   admin: { id: "admin@devtinder.com", pwd: "admin" },
-      //   user: { id: "user@devtinder.com", pwd: "user" },
-      // },
-      image: ECommerce,
-      tags: [
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "JWT",
-        "Mongoose",
-        "Postman",
-        "Bcrypt"
-      ],
-      github: "https://github.com/22L31A0497/Dev_tinder_backend",
-      webapp: "https://github.com/22L31A0497/Dev_tinder_backend"
-    },
-    
-{
-  id: 2,
-  title: "Secure Authentication System – Full-Stack (React + Django REST)",
-  description: `
-  - Built a complete full-stack application with React frontend and Django REST Framework backend.
-  - Implemented user authentication with signup, login, and logout functionality.
-  - Secured the app using JWT authentication (Access & Refresh tokens) with protected routes.
-  - Managed tokens efficiently using Axios interceptors for seamless API calls.
-  - Applied full validation and security best practices for login, signup, and logout workflows.
-  - Gained hands-on experience in connecting React with Django REST APIs securely.
-  `,
-  image: Django, // replace with your image import or path
-  tags: [
-    "React.js",
-    "Django REST Framework",
-    "JWT",
-    "Axios",
-    "Full-Stack",
-    "Authentication",
-    "Security"
-  ],
-  github: "https://github.com/22L31A0497/Stock-Prediction-Portal", // replace if uploaded
-  webapp: "https://github.com/22L31A0497/Stock-Prediction-Portal" // can leave empty if not deployed
-},
-{
-  id: 3,
-  title: "Blog Website Using Django",
-  description: `
+    // demo: {
+    //   admin: { id: "admin@devtinder.com", pwd: "admin" },
+    //   user: { id: "user@devtinder.com", pwd: "user" },
+    // },
+    image: ECommerce,
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Mongoose",
+      "Postman",
+      "Bcrypt"
+    ],
+    github: "https://github.com/22L31A0497/Dev_tinder_backend",
+    webapp: "https://github.com/22L31A0497/Dev_tinder_backend"
+  },
+  {
+    id: 3,
+    title: "Blog Website Using Django",
+    description: `
   - Created a fully functional Blog Website using Django.
   - Users can create blogs with images and videos, and delete them whenever needed.
   - Styled using HTML & CSS with Django static files.
   - Deployed and running live on Render.
   - Gained hands-on experience with Django templating, static file handling, and deployment.
   `,
-  image: BlogImage, // replace with your imported image or path
-  tags: [
-    "Django",
-    "Python",
-    "HTML",
-    "CSS",
-    "Deployment",
-    "Render"
-  ],
-  github: "https://github.com/22L31A0497/Blog_website_Using_Django",
-  webapp: "https://lnkd.in/gD8DQGMR"
-},
-   
-    {
-  id: 4,
-  title: "Titanic Survival Analysis – End-to-End ML Project",
-  description: `
-  - Executed full ML pipeline on raw Titanic data: missing value imputation, outlier handling, encoding, scaling, and feature engineering.
-  - Performed EDA with 5+ visualizations using Seaborn and Matplotlib to analyze survival impact by age, gender, fare, and class.
-  - Trained models: Logistic Regression, Decision Tree, Random Forest, achieving ~82% accuracy with cross-validation and tuning.
-  - Derived business insight: "Women and children in higher classes had highest survival" — recommend prioritization in emergency protocols.
-  `,
-  image: TitanicImage, // replace with your imported image or path
-  tags: [
-    "Python",
-    "Pandas",
-    "NumPy",
-    "Seaborn",
-    "Matplotlib",
-    "Scikit-learn",
-    "Logistic Regression",
-    "Decision Tree",
-    "Random Forest"
-  ],
-  github: "https://github.com/22L31A0497/Titanic_Survival_Analysis",
-  webapp: "https://github.com/22L31A0497/Titanic_Survival_Analysis"
-  
-},
-
- {
-      id: 5,
-      title: "MediMate",
-      description: `
+    image: BlogImage, // replace with your imported image or path
+    tags: [
+      "Django",
+      "Python",
+      "HTML",
+      "CSS",
+      "Deployment",
+      "Render"
+    ],
+    github: "https://github.com/22L31A0497/Blog_website_Using_Django",
+    webapp: "https://lnkd.in/gD8DQGMR"
+  },
+  {
+    id: 4,
+    title: "MediMate",
+    description: `
   - Built during a hackathon, MediMate is a health tech solution offering AI-powered symptom analysis and telemedicine support.
   - Features patient-doctor signup, profile management, and dashboard with editable health and emergency info.
   - Integrated a dynamic Symptom Checker powered by scoring algorithms for preliminary condition prediction.
@@ -459,31 +451,79 @@ export const experiences = [
   - Live Location Sharing: Patients can share their live GPS location with emergency contacts for immediate assistance.
   - Emergency Calling: A one-click feature to call emergency services (108) with the patient's GPS location included for quick response.
       `,
-      // demo: {
-      //   doctor: { id: "doctor@medimate.com", pwd: "doctor" },
-      //   patient: { id: "patient@medimate.com", pwd: "patient" },
-      // },
-      image: TeamInfo,
-      tags: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "TailwindCSS",
-        "JWT",
-        "AI",
-        "Symptom Checker",
-        "Hackathon",
-        "Live Location",
-        "Emergency Calling"
-      ],
-      github: "https://github.com/22L31A0497/MediMate_by_HealthGuardians",
-      webapp: "https://medi-mate-by-health-guardians-vgau.vercel.app/"
-    }
+    // demo: {
+    //   doctor: { id: "doctor@medimate.com", pwd: "doctor" },
+    //   patient: { id: "patient@medimate.com", pwd: "patient" },
+    // },
+    image: TeamInfo,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCSS",
+      "JWT",
+      "AI",
+      "Symptom Checker",
+      "Hackathon",
+      "Live Location",
+      "Emergency Calling"
+    ],
+    github: "https://github.com/22L31A0497/MediMate_by_HealthGuardians",
+    webapp: "https://medi-mate-by-health-guardians-vgau.vercel.app/"
+  },
+  {
+    id: 5,
+    title: "Titanic Survival Analysis – End-to-End ML Project",
+    description: `
+  - Executed full ML pipeline on raw Titanic data: missing value imputation, outlier handling, encoding, scaling, and feature engineering.
+  - Performed EDA with 5+ visualizations using Seaborn and Matplotlib to analyze survival impact by age, gender, fare, and class.
+  - Trained models: Logistic Regression, Decision Tree, Random Forest, achieving ~82% accuracy with cross-validation and tuning.
+  - Derived business insight: "Women and children in higher classes had highest survival" — recommend prioritization in emergency protocols.
+  `,
+    image: TitanicImage, // replace with your imported image or path
+    tags: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Seaborn",
+      "Matplotlib",
+      "Scikit-learn",
+      "Logistic Regression",
+      "Decision Tree",
+      "Random Forest"
+    ],
+    github: "https://github.com/22L31A0497/Titanic_Survival_Analysis",
+    webapp: "https://github.com/22L31A0497/Titanic_Survival_Analysis"
+  },
+  {
+    id: 6,
+    title: "Secure Authentication System – Full-Stack (React + Django REST)",
+    description: `
+  - Built a complete full-stack application with React frontend and Django REST Framework backend.
+  - Implemented user authentication with signup, login, and logout functionality.
+  - Secured the app using JWT authentication (Access & Refresh tokens) with protected routes.
+  - Managed tokens efficiently using Axios interceptors for seamless API calls.
+  - Applied full validation and security best practices for login, signup, and logout workflows.
+  - Gained hands-on experience in connecting React with Django REST APIs securely.
+  `,
+    image: Django, // replace with your image import or path
+    tags: [
+      "React.js",
+      "Django REST Framework",
+      "JWT",
+      "Axios",
+      "Full-Stack",
+      "Authentication",
+      "Security"
+    ],
+    github: "https://github.com/22L31A0497/Stock-Prediction-Portal", // replace if uploaded
+    webapp: "https://github.com/22L31A0497/Stock-Prediction-Portal" // can leave empty if not deployed
+  }
+];
 
-  ];
   
-export const codingProfiles = [
+  export const codingProfiles = [
   
   {
     name: "LeetCode",
@@ -511,11 +551,11 @@ export const codingProfiles = [
     image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png",
     link: "https://www.geeksforgeeks.org/user/jaganmohan_rao_kuna/",
   },
-  {
-    name: "AtCoder",
-    image: "https://img.atcoder.jp/assets/atcoder.png",
-    link: "https://atcoder.jp/users/jaganmohanrao",
-  },
+  // {
+  //   name: "AtCoder",
+  //   image: "https://img.atcoder.jp/assets/atcoder.png",
+  //   link: "https://atcoder.jp/users/jaganmohanrao",
+  // },
 ];
 
 

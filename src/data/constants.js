@@ -25,7 +25,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges.",
     github: "https://github.com/22L31A0497",
-    resume: "https://drive.google.com/file/d/1Tfnj8OddzmdnwG5MR3q-u0A8THBINf45/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1ZXEbPVjnwVi32Y7VhTyYtAdgIfNtRhDP/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/jaganmohanraokuna-fullstack/",
     twitter: "https://x.com/JaganMo88789011",
     insta: "https://www.instagram.com/jaganmohan_rao_kuna/",

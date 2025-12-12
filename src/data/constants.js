@@ -15,6 +15,7 @@ import TitanicImage from "../images/titanic.jpg"
 import BlogImage from "../images/Blog.png"
 import Django from "../images/django.png"
 import ChatApp from "../images/ChatApp.png"
+import MOTIONSHIELD_IMG from "../images/MOTIONSHIELD_IMG.jpeg";
 
 export const Bio = {
     name: "Jaganmohan Rao Kuna",
@@ -25,7 +26,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges.",
     github: "https://github.com/22L31A0497",
-    resume: "https://drive.google.com/file/d/1ZXEbPVjnwVi32Y7VhTyYtAdgIfNtRhDP/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1M6gGgCmpHo8WzVrduwJpiGNuc0qn-Jar/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/jaganmohanraokuna-fullstack/",
     twitter: "https://x.com/JaganMo88789011",
     insta: "https://www.instagram.com/jaganmohan_rao_kuna/",
@@ -227,8 +228,30 @@ export const Bio = {
   ];
   
 export const experiences = [
+
   {
-  id: 0,
+  id:0,
+  img: MOTIONSHIELD_IMG,
+  role: "Computer Vision & Machine Learning Intern",
+  company: "Motion Shield",
+  date: "Sep 2025 - Nov 2025",
+ desc: "Developed a complete end-to-end Car Damage Detection System using YOLOv8, PyTorch, ONNX, Django, and Next.js. Trained YOLOv8 on the Kaggle Car Damage Dataset and applied segmentation techniques to accurately highlight damaged vehicle areas. Built image-processing pipelines using PyTorch & OpenCV, gaining strong understanding of ML, ANN, CNN, and model evaluation. Converted trained PyTorch models into ONNX format and optimized them for faster inference. Developed Django backend APIs for image uploads and real-time model predictions, and integrated them into a functional frontend UI. Maintained daily learning documentation, experiment logs, dataset details, and workflow improvements throughout the internship."
+,skills: [
+    "YOLOv8",
+    "PyTorch",
+    "ONNX",
+    "ONNX Runtime",
+    "OpenCV",
+    "Django",
+    "Next.js",
+    "Model Optimization",
+    "REST API Development",
+    "Computer Vision"
+  ],
+  //doc: "Backend repo: https://github.com/22L31A0497/backend-of-damage-detection | Frontend repo: https://github.com/22L31A0497/damagedetection | Notes & experiments: https://github.com/22L31A0497/My_Learnings_At_MotionShield"
+},
+  {
+  id: 1,
   img: cranes_varsity_logo, // Replace with your image import or path
   role: "Data Science & AI/ML Intern",
   company: "Cranes Varsity Pvt. Ltd.",
@@ -248,7 +271,7 @@ export const experiences = [
 }
 ,
   {
-    id: 1,
+    id: 2,
     img: ITJOBXS,
     role: "Full Stack Developer Intern & Team Lead",
     company: "UptoSkills",
@@ -266,7 +289,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: INTERNPIXEL,
     role: "Frontend Developer Intern",
     company: "OctaNet Services Pvt. Ltd.",
@@ -282,7 +305,7 @@ export const experiences = [
     doc: "",
   },
   {
-  id: 3,
+  id: 4,
   img: teckybot, // Replace with your image import or path
   role: "Embedded Systems Intern",
   company: "Teckybot",
@@ -376,6 +399,7 @@ export const projects = [
     //   instructor: { id: "instructor@gmail.com", pwd: "instructor" },
     //   student: { id: "student@gmail.com", pwd: "student" },
     // },
+
     image: Techconnect,
     tags: [
       "React.js",
@@ -404,6 +428,7 @@ export const projects = [
     //   admin: { id: "admin@devtinder.com", pwd: "admin" },
     //   user: { id: "user@devtinder.com", pwd: "user" },
     // },
+
     image: ECommerce,
     tags: [
       "Node.js",
@@ -417,6 +442,7 @@ export const projects = [
     github: "https://github.com/22L31A0497/Dev_tinder_backend",
     webapp: "https://github.com/22L31A0497/Dev_tinder_backend"
   },
+
   {
     id: 3,
     title: "Blog Website Using Django",
@@ -521,9 +547,8 @@ export const projects = [
     webapp: "https://github.com/22L31A0497/Stock-Prediction-Portal" // can leave empty if not deployed
   }
 ];
-
-  
-  export const codingProfiles = [
+ 
+export const codingProfiles = [
   
   {
     name: "LeetCode",
@@ -567,4 +592,3 @@ export const achievements = [
   "Top 20 in SusHacks Hackathon 2025 (National-level innovative tech solutions).",
   "Earned multiple certifications from platforms like NPTEL, Coursera, Udemy,Postman and Forage."
 ];
-

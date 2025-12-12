@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { Bio } from '../../data/constants'; 
 import Typewriter from 'typewriter-effect';
-import HeroImg from '../../images/img-2.jpg'
+import HeroImg from '../../images/profile.jpg';
 import HeroBgAnimation from '../HeroBgAnimation';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';

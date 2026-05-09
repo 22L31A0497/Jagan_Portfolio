@@ -1,5 +1,5 @@
 import Img from "../images/image.png";
-import LetsGrow from "../images/LETSGROW.jpeg"
+// import LetsGrow from "../images/LETSGROW.jpeg"
 import ITJOBXS from "../images/ITJOBXS.jpg";
 import INTERNPIXEL from "../images/INTERNPIXEL.jpg";
 import Victoryscl from "../images/Victoryscl.png";
@@ -8,7 +8,7 @@ import VignanLogo from "../images/vignanlogo.jpg";
 import Techconnect from "../images/Tech-Connect.jpg";
 import ECommerce from "../images/Ecommerceee.jpg";
 import TeamInfo from "../images/Team-Info.png";
-import Quiz from "../images/Quizz.png";
+// import Quiz from "../images/Quizz.png";
 import cranes_varsity_logo from "../images/cranes_varsity_logo.jpg"
 import teckybot from "../images/teckybot_logo.jpg"
 import TitanicImage from "../images/titanic.jpg"
@@ -16,6 +16,7 @@ import BlogImage from "../images/Blog.png"
 import Django from "../images/django.png"
 import ChatApp from "../images/ChatApp.png"
 import MOTIONSHIELD_IMG from "../images/MOTIONSHIELD_IMG.jpeg";
+import AskFirstLogo from "../images/askfirst.jpeg";
 
 export const Bio = {
     name: "Jaganmohan Rao Kuna",
@@ -114,6 +115,36 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
+        {
+          name: "React Native",
+          image:
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Expo",
+          image:
+            "https://avatars.githubusercontent.com/u/12504344?s=200&v=4",
+        },
+        {
+          name: "Framer Motion",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+        },
+        {
+          name: "TanStack Query",
+          image:
+            "https://avatars.githubusercontent.com/u/72518640?s=200&v=4",
+        },
+        {
+          name: "Zustand",
+          image:
+            "https://raw.githubusercontent.com/pmndrs/zustand/main/bear.jpg",
+        },
+        {
+          name: "Axios",
+          image:
+            "https://axios-http.com/assets/logo.svg",
+        },
         // {
         //   name: "Shadcn-UI",
         //   image:
@@ -151,6 +182,11 @@ export const Bio = {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+         {
+          name: "TypeScript",
+          image:
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         },
       ],
     },
@@ -230,7 +266,32 @@ export const Bio = {
 export const experiences = [
 
   {
-  id:0,
+    id: 0,
+    img: AskFirstLogo,
+    role: "Frontend Engineer (Next.js, Expo)",
+    company: "AskFirst",
+    date: "Jan 2026 - Present",
+    desc: "Developing responsive and scalable web applications using Next.js and React.js for production-level features. Building cross-platform mobile applications with Expo and React Native, focused on performance and smooth user experience. Designing reusable, modular UI components to improve code maintainability and development speed. Integrating REST APIs and handling asynchronous data fetching with optimized state management using TanStack Query and Zustand. Working on real-world product features, debugging issues, and improving application performance. Gaining hands-on experience in modern frontend architecture, deployment, and production workflows. Based at T-Hub 2.0, Hyderabad.",
+    skills: [
+      "Next.js",
+      "React.js",
+      "React Native",
+      "Expo",
+      "Expo Router",
+      "TypeScript",
+      "Framer Motion",
+      "TanStack Query",
+      "Zustand",
+      "Axios",
+      "React Navigation",
+      "Reanimated",
+      "TailwindCSS",
+      "PostHog"
+    ],
+    doc: "",
+  },
+  {
+  id: 1,
   img: MOTIONSHIELD_IMG,
   role: "Computer Vision & Machine Learning Intern",
   company: "Motion Shield",
@@ -251,7 +312,7 @@ export const experiences = [
   //doc: "Backend repo: https://github.com/22L31A0497/backend-of-damage-detection | Frontend repo: https://github.com/22L31A0497/damagedetection | Notes & experiments: https://github.com/22L31A0497/My_Learnings_At_MotionShield"
 },
   {
-  id: 1,
+  id: 2,
   img: cranes_varsity_logo, // Replace with your image import or path
   role: "Data Science & AI/ML Intern",
   company: "Cranes Varsity Pvt. Ltd.",
@@ -271,7 +332,7 @@ export const experiences = [
 }
 ,
   {
-    id: 2,
+    id: 3,
     img: ITJOBXS,
     role: "Full Stack Developer Intern & Team Lead",
     company: "UptoSkills",
@@ -289,7 +350,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 3,
+    id: 4,
     img: INTERNPIXEL,
     role: "Frontend Developer Intern",
     company: "OctaNet Services Pvt. Ltd.",
@@ -305,7 +366,7 @@ export const experiences = [
     doc: "",
   },
   {
-  id: 4,
+  id: 5,
   img: teckybot, // Replace with your image import or path
   role: "Embedded Systems Intern",
   company: "Teckybot",

@@ -14,8 +14,8 @@ import {
 } from "../../hooks/useScrollAnimation";
 
 const STATS = [
-  { value: 3, suffix: "+", label: "Years of Coding" },
-  { value: 20, suffix: "+", label: "Projects Built" },
+  { value: 2, suffix: "+", label: "Years of Coding" },
+  { value: 15, suffix: "+", label: "Projects Built" },
   { value: 10, suffix: "+", label: "Technologies" },
 ];
 

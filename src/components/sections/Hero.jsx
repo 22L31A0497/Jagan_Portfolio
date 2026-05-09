@@ -51,8 +51,8 @@ const MARQUEE_TECH = [
 ];
 
 const STATS = [
-  { value: "3+", label: "Years building", color: "bg-indigo-400" },
-  { value: "20+", label: "Projects shipped", color: "bg-purple-400" },
+  { value: "2+", label: "Years building", color: "bg-indigo-400" },
+  { value: "15+", label: "Projects shipped", color: "bg-purple-400" },
   { value: "700+", label: "DSA solved", color: "bg-cyan-400" },
 ];
 

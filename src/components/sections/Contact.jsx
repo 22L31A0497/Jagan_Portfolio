@@ -58,7 +58,7 @@ const SOCIALS = [
   { Icon: IconBrandGithub, href: Bio.github, label: "GitHub", color: "hover:bg-white/10 hover:border-white/30" },
   { Icon: IconBrandLinkedin, href: Bio.linkedin, label: "LinkedIn", color: "hover:bg-blue-500/20 hover:border-blue-400/40" },
   { Icon: IconBrandX, href: Bio.twitter, label: "X / Twitter", color: "hover:bg-white/10 hover:border-white/30" },
-  { Icon: IconMail, href: "mailto:hello@example.com", label: "Email", color: "hover:bg-purple-500/20 hover:border-purple-400/40" },
+  { Icon: IconMail, href: "jaganmohanraokuna2004@gmail.com", label: "Email", color: "hover:bg-purple-500/20 hover:border-purple-400/40" },
 ];
 
 const Contact = () => {
@@ -129,16 +129,16 @@ const Contact = () => {
             containerClassName="rounded-3xl"
             className="!p-0"
           >
-            {/* <div className="w-full p-5 sm:p-6 md:p-10">
-              <div className="flex items-center gap-2 mb-6">
+        <div className="w-full p-5 sm:p-6 md:p-10">
+              {/* <div className="flex items-center gap-2 mb-6">
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-                {/* <span className="text-sm text-emerald-300">
+                <span className="text-sm text-emerald-300">
                   Available for opportunities
-                </span> */}
-                {/* </span> */}
-              /* {/* </div> */} */} */
+                </span>
+                </span>
+             </div> */}
 
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid sm:grid-cols-2 gap-4">

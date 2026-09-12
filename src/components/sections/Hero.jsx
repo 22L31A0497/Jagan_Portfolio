@@ -16,7 +16,7 @@ import { Bio } from "../../data/constants";
 import { ShimmerButton } from "../ui/ShimmerButton";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 import { TypewriterEffect } from "../ui/TypewriterEffect";
-import { AnimatedGradientText } from "../ui/AnimatedGradientText";
+// import { AnimatedGradientText } from "../ui/AnimatedGradientText";
 import { SparklesCore } from "../ui/SparklesCore";
 import { MagneticButton } from "../ui/MagneticButton";
 

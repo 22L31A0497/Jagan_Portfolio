@@ -58,7 +58,7 @@ const SOCIALS = [
   { Icon: IconBrandGithub, href: Bio.github, label: "GitHub", color: "hover:bg-white/10 hover:border-white/30" },
   { Icon: IconBrandLinkedin, href: Bio.linkedin, label: "LinkedIn", color: "hover:bg-blue-500/20 hover:border-blue-400/40" },
   { Icon: IconBrandX, href: Bio.twitter, label: "X / Twitter", color: "hover:bg-white/10 hover:border-white/30" },
-  { Icon: IconMail, href: "jaganmohanraokuna2004@gmail.com", label: "Email", color: "hover:bg-purple-500/20 hover:border-purple-400/40" },
+  { Icon: IconMail, href: "mailto:jaganmohanraokuna2004@gmail.com", label: "Email", color: "hover:bg-purple-500/20 hover:border-purple-400/40" },
 ];
 
 const Contact = () => {

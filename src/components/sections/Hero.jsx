@@ -9,8 +9,8 @@ import {
 import {
   IconBrandGithub,
   IconArrowDown,
-  IconDownload,
-  IconSparkles,
+  IconDownload
+  // IconSparkles,
 } from "@tabler/icons-react";
 import { Bio } from "../../data/constants";
 import { ShimmerButton } from "../ui/ShimmerButton";
